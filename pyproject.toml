@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "know"
+version = "0.1.0"
+description = "learn anything"
+authors = ["Mcaewa"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wikipedia = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
